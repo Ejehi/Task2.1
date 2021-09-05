@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.landing-page {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/img/header-background.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+
+}
+
+#menu {
+   margin-top: 10px;
+}
+
+.menu {
+    height: 75vh;
+ }
+
+ .header {
+    display: flex;
+    width: 80%;
+}
+
+.about-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    width: 20%;
+
+}
+
+.header-text {
+    background-color: white;
+    color: black;
+    font-size: 0.8rem;
+    padding: 40px 20px;
+    width: 80%;
+
+}
+
+.second-section, .spring-collection {
+    background-color: #f3c1d6;
+    color: white;
+    
+}
+
+.second-section h3 {
+    font-family: 'Playfair Display', serif;
+    width: 75%;
+    margin-left: 150px;
+   font-size: 1.9rem;
+   padding-top: 50px;
+
+
+}
+.second-section h3 span{
+   font-size: 5rem;
+}
+ 
+.second-section p {
+    margin-left: 150px;
+    width: 40%;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding-bottom: 80px;
+}
+
+.row {
+    display: flex;
+    height: 500px;
+    
+}
+
+.row .gallery-image-1 {
+    background-image: url("/img/aykut-aktas-Dy4-Fer7zwc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.row .gallery-image-2 {
+    background-image: url("/img/divine-effiong-h1lA3N5wb8M-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.row .gallery-image-3 {
+    background-image: url("/img/dom-hill-nimElTcTNyY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    flex-grow: 1;
+    
+}
+
+.row .gallery-image-4 {
+    background-image: url("/img/omid-armin-qFKIqEaaw5A-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    flex-grow: 1;
+   
+}
+
+.row .gallery-image-5 {
+    background-image: url("/img/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.row .gallery-image-6 {
+    background-image: url("/img/ussama-azam-h5qAdWZZEAE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    flex-grow: 1;
+   
+}
+
+.coming-soon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3c1d6;
+    color: white;
+
+}
+
+.coming-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+
+.coming-text {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+
+}
+
+.form-field {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1%;
+    padding-bottom: 40px;
+}
+
+.input-field input{
+    font-size: 0.7rem;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 20px 5px 10px;
+
+}
+
+.input-field button {
+    font-size: 0.6rem;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+
+}
+
+.article {
+    display: flex;
+    background-color:white;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    gap: 2%;
+
+}
+
+.article-image {
+    background-image: url("/img/article-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.article-text {
+    width: 60%;
+    padding-top: 150px;
+    font-size: 1.2rem;
+
+}
+
+.signature {
+    font-family: 'Cedarville Cursive', cursive;
+    color: pink;
+    font-size: 2rem;
+}
+
+.spring-collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.spring-collection h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+}
+
+.spring-collection img {
+    margin-bottom: 50px;
+}
+
+.collection-gallery {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    margin: 10px auto 50px auto;
+    width: 80%;
+    justify-content: center;
+    gap: 2%;
+}
+
+.spring-img-1, .spring-img-2, .spring-img-3, .spring-img-4 {
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.spring-img-1 {
+    background-image: url("/img/omid-armin-qFKIqEaaw5A-unsplash.jpg");
+}
+
+.spring-img-2 {
+    background-image: url("/img/ussama-azam-h5qAdWZZEAE-unsplash.jpg");
+}
+
+.spring-img-3 {
+    background-image: url("/img/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg");
+}
+
+.spring-img-4 {
+    background-image: url("/img/dom-hill-nimElTcTNyY-unsplash.jpg");
+}
+
+.sample-product {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    margin: 90px auto;
+    width: 80%;
+    gap: 2%;
+}
+
+.sample-1, .sample-2 {
+    width: 30%;
+}
+
+.sample-1 {
+    background-image: url("/img/aykut-aktas-Dy4-Fer7zwc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sample-2 {
+    background-image: url("/img/ussama-azam-h5qAdWZZEAE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sample-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin-top: 40px;
+}
+
+.sample-content .content-1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+
+}
+
+.sample-content .content-2 {
+    font-size: 1.9rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+
+.sample-content button {
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.subscribe-section {
+    display: flex;
+    height: 650px;
+    width: 100%;
+    gap: 4%;
+}
+
+.subscribe-image {
+    background-image: url("/img/article-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.subscribe-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.subscribe-text hr {
+    background-color: pink;
+    border: 1px solid pink;
+    height: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.subscribe-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 4%;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+.subscribe-text button {
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 20px;
+    border: none;
+    height: 42px;
+    width: 120px;
+    margin-bottom: 20px;
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
