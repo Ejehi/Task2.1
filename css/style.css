@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url("img/header-background.jpg");
+    background-image: url("../img/header-background.jpg");
     background-repeat: no-repeat;
     min-height: 100vh;
     background-size: cover;
@@ -80,7 +80,7 @@
 }
 
 .row .gallery-image-1 {
-    background-image: url("img/aykut-aktas-Dy4-Fer7zwc-unsplash.jpg");
+    background-image: url("../img/aykut-aktas-Dy4-Fer7zwc-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -89,7 +89,7 @@
 }
 
 .row .gallery-image-2 {
-    background-image: url("img/divine-effiong-h1lA3N5wb8M-unsplash.jpg");
+    background-image: url("../img/divine-effiong-h1lA3N5wb8M-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -98,7 +98,7 @@
 }
 
 .row .gallery-image-3 {
-    background-image: url("img/dom-hill-nimElTcTNyY-unsplash.jpg");
+    background-image: url("../img/dom-hill-nimElTcTNyY-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -108,7 +108,7 @@
 }
 
 .row .gallery-image-4 {
-    background-image: url("img/omid-armin-qFKIqEaaw5A-unsplash.jpg");
+    background-image: url("../img/omid-armin-qFKIqEaaw5A-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -118,7 +118,7 @@
 }
 
 .row .gallery-image-5 {
-    background-image: url("img/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg");
+    background-image: url("../img/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -127,7 +127,7 @@
 }
 
 .row .gallery-image-6 {
-    background-image: url("img/ussama-azam-h5qAdWZZEAE-unsplash.jpg");
+    background-image: url("../img/ussama-azam-h5qAdWZZEAE-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -197,7 +197,7 @@
 }
 
 .article-image {
-    background-image: url("img/article-image.jpg");
+    background-image: url("../img/article-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -256,19 +256,19 @@
 }
 
 .spring-img-1 {
-    background-image: url("img/omid-armin-qFKIqEaaw5A-unsplash.jpg");
+    background-image: url("../img/omid-armin-qFKIqEaaw5A-unsplash.jpg");
 }
 
 .spring-img-2 {
-    background-image: url("img/ussama-azam-h5qAdWZZEAE-unsplash.jpg");
+    background-image: url("../img/ussama-azam-h5qAdWZZEAE-unsplash.jpg");
 }
 
 .spring-img-3 {
-    background-image: url("img/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg");
+    background-image: url("../img/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg");
 }
 
 .spring-img-4 {
-    background-image: url("img/dom-hill-nimElTcTNyY-unsplash.jpg");
+    background-image: url("../img/dom-hill-nimElTcTNyY-unsplash.jpg");
 }
 
 .sample-product {
@@ -285,14 +285,14 @@
 }
 
 .sample-1 {
-    background-image: url("img/aykut-aktas-Dy4-Fer7zwc-unsplash.jpg");
+    background-image: url("../img/aykut-aktas-Dy4-Fer7zwc-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .sample-2 {
-    background-image: url("img/ussama-azam-h5qAdWZZEAE-unsplash.jpg");
+    background-image: url("../img/ussama-azam-h5qAdWZZEAE-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -342,7 +342,7 @@
 }
 
 .subscribe-image {
-    background-image: url("img/article-image.jpg");
+    background-image: url("../img/article-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
